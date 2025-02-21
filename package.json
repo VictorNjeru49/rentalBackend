@@ -5,8 +5,8 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "gen":"drizzle-kit generate",
-    "migrate" : " tsx src/drizzle/migrate.ts",
+    "gen": "drizzle-kit generate",
+    "migrate": " tsx src/drizzle/migrate.ts",
     "studio": "drizzle-kit studio",
     "push": "drizzle-kit push"
   },
@@ -15,6 +15,7 @@
     "@hono/zod-validator": "^0.4.3",
     "@neondatabase/serverless": "^0.10.4",
     "@types/jsonwebtoken": "^9.0.8",
+    "axios": "^1.7.9",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.39.3",
